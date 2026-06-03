@@ -1,7 +1,7 @@
 from car_class import Car
 
 def main():
-    car = Car(2024, "Honda Civic")
+    car = Car("2024 Civic", "Honda")
     print(f"Test Drive for: {car.get_year_model()}{car.get_make()}")
 
     print("ACCELERATING:")
