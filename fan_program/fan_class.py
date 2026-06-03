@@ -34,5 +34,5 @@ class Fan:
         self._on = value
 
     def __str__(self):
-        status = "On" if self._on else "Off"
+        status = "On" if self.on else "Off"
         return "Fan Speed: {}, Radius: {}, Color: {}".format(self.speed, self.radius, self.color)
