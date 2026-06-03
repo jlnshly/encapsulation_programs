@@ -10,28 +10,28 @@ class Fan:
         self.on = on
 
     def speed(self):
-        return self._speed
+        return self.__speed
 
     def speed(self, value):
-        self._speed = value
+        self.__speed = value
 
     def radius(self):
-        return self._radius
+        return self.__radius
 
     def radius(self, value):
-        self._radius = value
+        self.__radius = value
 
     def color(self):
-        return self._color
+        return self.__color
 
     def color(self, value):
-        self._color = value
+        self.__color = value
 
     def on(self):
-        return self._on
+        return self.__on
 
     def on(self, value):
-        self._on = value
+        self.__on = value
 
     def __str__(self):
         status = "On" if self.on else "Off"
