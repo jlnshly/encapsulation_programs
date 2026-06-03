@@ -5,12 +5,14 @@ def main():
     print(f"Test Drive for: {car.get_year_model()}{car.get_make()}")
 
     print("ACCELERATING:")
-    car.accelerate()
-    print(f"Current Speed: {car.get_speed()}km/h")
+    for i in range(1, 6):
+        car.accelerate()
+        print(f"Current Speed: {car.get_speed()}km/h")
 
     print("BRAKING:")
-    car.brake()
-    print(f"Current Speed: {car.get_speed()}km/h")
+    for i in range(1, 6):
+        car.brake()
+        print(f"Current Speed: {car.get_speed()}km/h")
 
 if __name__ == "__main__":
     main()
