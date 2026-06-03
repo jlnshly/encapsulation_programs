@@ -10,4 +10,10 @@ class Fan:
         self.on = on
 
     def speed(self):
-        return self.speed_
+        return self._speed
+
+    def speed(self, value):
+        self._speed = value
+
+    def radius(self):
+        return self.radius
